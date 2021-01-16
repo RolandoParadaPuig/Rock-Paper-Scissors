@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(83, 167, 216);
+  padding: 0;
+  margin: 0;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+#header {
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: center;
+}
