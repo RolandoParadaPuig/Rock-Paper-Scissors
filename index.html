@@ -20,7 +20,36 @@
   </head>
   <body>
     <header id="header">
-      <h1>Rock Paper Scissors</h1>
+      <h1 id="h1">Rock Paper Scissors</h1>
+      <span id="span">Game by <b>Rolando</b></span>
     </header>
+    <main id="main">
+      <div id="user_selection">
+        <div id="rock">
+          <img
+            class="user_click"
+            onclick="userRock()"
+            src="img/rock.png"
+            alt="rock image"
+          />
+        </div>
+        <div id="paper">
+          <img
+            class="user_click"
+            onclick="userPaper()"
+            src="img/paper.png"
+            alt="Paper image"
+          />
+        </div>
+        <div id="scissors">
+          <img
+            class="user_click"
+            onclick="userScissors()"
+            src="img/scissors.png"
+            alt="Scissors image"
+          />
+        </div>
+      </div>
+    </main>
   </body>
 </html>
