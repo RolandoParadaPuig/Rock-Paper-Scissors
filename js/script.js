@@ -37,11 +37,13 @@ function rockFunction() {
     computerPoints = 0;
     userPoints = 0;
     console.log("the computer win the GAME!");
+    alert("the computer win the GAME!");
   }
   if (userPoints >= 5) {
     computerPoints = 0;
     userPoints = 0;
     console.log("you win the GAME!");
+    alert("you win the GAME!");
   }
 }
 
@@ -81,11 +83,13 @@ function paperFunction() {
     computerPoints = 0;
     userPoints = 0;
     console.log("the computer win the GAME!");
+    alert("the computer win the GAME!");
   }
   if (userPoints >= 5) {
     computerPoints = 0;
     userPoints = 0;
     console.log("you win the GAME!");
+    alert("you win the GAME!");
   }
 }
 
@@ -126,10 +130,12 @@ function scissorsFunction() {
     computerPoints = 0;
     userPoints = 0;
     console.log("the computer win the GAME!");
+    alert("the computer win the GAME!");
   }
   if (userPoints >= 5) {
     computerPoints = 0;
     userPoints = 0;
     console.log("you win the GAME!");
+    alert("you win the GAME!");
   }
 }
