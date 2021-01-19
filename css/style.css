@@ -45,3 +45,41 @@ body {
 .user_click:hover {
   cursor: pointer;
 }
+
+#result {
+  width: 100%;
+  height: 5em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#result span {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.15em lightgray;
+  border-radius: 25em;
+}
+#restart {
+  display: none;
+  justify-content: center;
+  height: 5em;
+}
+#restart span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border: solid 0.15em lightgray;
+  border-radius: 25em;
+}
+
+#restart span:hover {
+  cursor: pointer;
+  background-color: rgb(167, 39, 149);
+  transform: scale(1.1);
+}
+#restart span {
+  transition: 0.2s linear 0.1s;
+}
