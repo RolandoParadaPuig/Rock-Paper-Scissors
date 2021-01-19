@@ -124,12 +124,20 @@ function winner() {
   if (computerPoints >= 5) {
     computerPoints = 0;
     userPoints = 0;
+    document.getElementById("computer_points").innerHTML =
+      "computer points: " + computerPoints;
+    document.getElementById("user_points").innerHTML =
+      "you´r points: " + userPoints;
     document.getElementById("restart").style.display = "flex";
-    console.log("the computer win the GAME!");
+    alert("the computer win the GAME!");
   } else if (userPoints >= 5) {
     computerPoints = 0;
     userPoints = 0;
-    console.log("you win the GAME!");
+    document.getElementById("computer_points").innerHTML =
+      "computer points: " + computerPoints;
+    document.getElementById("user_points").innerHTML =
+      "you´r points: " + userPoints;
+    alert("you win the GAME!");
     document.getElementById("restart").style.display = "flex";
   } else {
     document.getElementById("restart").style.display = "none";
